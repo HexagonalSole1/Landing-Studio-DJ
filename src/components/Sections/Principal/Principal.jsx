@@ -6,8 +6,11 @@ import BodyPrincipal from '../../Molecules/BodyPrincipal/BodyPrincipal'
 function Principal() {
   return (
     <>
+    <div className={style.divContainer}>
     <Header></Header>
     <BodyPrincipal></BodyPrincipal>
+    </div>
+
     </>    
   )
 }
